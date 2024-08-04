@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home1/alcana92/public_html/
-    - /bin/cp -R assets/ $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
